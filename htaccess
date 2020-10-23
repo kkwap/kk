@@ -1,0 +1,24 @@
+RewriteEngine On
+
+#RewriteBase /
+
+#RewriteCond %{HTTP_HOST} ^phpans.com
+#RewriteRule (.*) http://www.phpans.com/$1 [R=301,L]
+
+
+#RewriteCond %{HTTP_REFERER} !^$
+#RewriteCond %{HTTP_REFERER} !^http://phpans.com/.*$ [NC]
+#RewriteCond %{HTTP_REFERER} !^http://phpans.com$ [NC]
+#RewriteCond %{HTTP_REFERER} !^http://phpans.com/.*$ [NC]
+#RewriteCond %{HTTP_REFERER} !^http://phpans.com$ [NC]
+#RewriteRule .*.(1)$ http://phpans.com [R,NC]
+
+RewriteRule ^download/(.*)/(.+).mp3$ download.php?session=$1
+RewriteRule ^download/(.+)/(.+).html$ view.php?id=$1&permalink=$2
+
+Options -Indexes
+
+ErrorDocument 402 /index.php
+ErrorDocument 403 /index.php
+ErrorDocument 404 /404.php
+ErrorDocument 500 /index.php

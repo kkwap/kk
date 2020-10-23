@@ -1,0 +1,77 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;vertical-align:baseline;margin:0;padding:0}
+body {
+color: #000000;
+background:#fff;
+font-size: 0.9em;
+font-family: Arial, Verdana,Geneva,Helvetica,sans-serif;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+border-left: 2px solid #175172;
+border-right: 2px solid #175172;
+}
+img, audio
+{
+margin: 0;
+max-width: 98%;
+}
+a{color:#3F8ECF;text-decoration:none}
+
+.ac,.ads,.search,.friends{text-align:center}
+.footer a,.breadcrumb a,.paging a{color:#FFF5EE}
+.footer a:hover,.breadcrumb a:hover{color:#FFF5EE}
+.title a:visited {color:#FFF;}
+.title a:link {color:#FFF;}
+.ads{margin-top:2px}
+.title,.title_b,.logo,.footer,.nav,.search,.lastsearch,.friends,.breadcrumb,.sort,.list_a,.list_b,.pagination,.tags,.error{padding:5px}
+.breadcrumb,.title_a,.title_b,.error{font-style:normal}
+.title_a,.logo,.footer,.breadcrumb,.title{background:#3F8ECF;color:#FFF5EE; padding: 10px;}
+.sort,.list_b{background:#F4F4F4;color:#333}
+.title_b,.nav,.list_a{background:#F8F8F8}
+.tags,.lastsearch,.error{background:#FFF6BF;border-top:solid 2px #464646;border-bottom:solid 2px #464646;}
+.st{border:#ccc solid 1px;height:20px;width:80%}
+.list_a,.list_b,.nav{border-bottom:1px solid #eee}
+.paging .pagenav,.pagination .currentpage{background:#F4F9FD;color:#000;padding:0 4px}
+.tweet-button{background-color:  #1E90FF; color:  #ffffff; border-width: 0px; border-color: #909090; border-style: solid; padding-top: 2px; padding-bottom: 2px; padding-left: 2px; padding-right: 2px; margin-left: 3px; margin-right: 3px; }
+.fbshare-button{background-color:  #1871ad; color:  #ffffff; border-width: 0px; border-color: #909090; border-style: solid; padding-top: 2px; padding-bottom: 2px; padding-left: 2px; padding-right: 2px; margin-left: 3px; margin-right: 3px; }
+.tweet-button,.fbshare-button{color:#fff}
+a:hover,a:focus,.sort,.list_b,.tags,.lastsearch,.error{color:#195B80;}
+.menu, .list{
+    margin: 2px;
+    padding: 6px;
+    border: 1px solid #d6d6d6;
+    background: #fff url(images/main.gif) repeat-x 50% top;
+}
+.tab{background:black;color:white;font-weight:bold;padding:5px;text-align:center}
+.taba{background:#195B80 ;color:white;font-weight:bold;padding:5px;text-align:left}
+.fahrul{background:#e34f35;color:#fff; border-width: 0px; border-color: #909090; border-style: solid; padding-top: 2px; padding-bottom: 2px; padding-left: 2px; padding-right: 2px; margin-left: 3px; margin-right: 3px; }
+
+.pagenav_0{background:#464646;color:#fff;padding:0 4px}
+.paging {
+    padding: 4px;
+    color: #ddd;
+    text-align:center;
+    background:#D8BFD8;
+}
+.paging span{
+    background:#f00;
+    margin:0 1px;
+    padding:4px;
+    color:#fff;
+    display:inline-block
+}
+.paging a {
+    background:#00f;
+    margin:0 1px;
+    padding:4px;
+    color:#fff;
+    text-decoration:none;
+    display:inline-block
+}
+.music
+{
+background-color: #E8E8FF;
+padding: 5px;
+border-bottom: 1px solid #D5D5FF;
+}.ml{padding:6px 10px;border-bottom:1px solid
+#ededed}.ml{background:#fff}
+.brand{height:50px;width:150px}

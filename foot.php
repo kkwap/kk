@@ -1,0 +1,4 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<div style="border-top:3px solid #279ddd; padding: 8px; background:#222;text-align:center"><center><font color="yellow"><?php include'count.php' ?></font></center><br><font color="#fff">&copy; <?php echo date("Y");?><b>-<a href="/"> Awaaz.Cf</b></a><br/>Designed By <b><a href="//m.facebook.com/AJK275">Kashif Murtaza</b></a></font></div>
